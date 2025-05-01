@@ -91,6 +91,9 @@ docker save [image-name]                  :> Save an image to a tar archive
 
 docker load [file]                        :> Load an image from a tar archive
 
+docker build -t yourimagename:tag .       :> creat image 
+
+
         : docker cp [container_name_or_id]:/path/to/container/testing /path/to/local/destination :
         
         This command copies a file or directory from a Docker container to a local machine
