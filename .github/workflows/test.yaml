@@ -27,6 +27,6 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ./basic-python-app
+          context: ./basic-app
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/basic-python-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/basic-app:latest
