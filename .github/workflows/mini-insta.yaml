@@ -29,6 +29,6 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ./instgram-app
+          context: ./instgram-app  # Make sure this path is correct
           push: true
-          tags: yourdockerhubusername/instagram-app:latest
+          tags: nishantXdevops/instagram-app:latest
