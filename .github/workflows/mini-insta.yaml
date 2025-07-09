@@ -31,4 +31,4 @@ jobs:
         with:
           context: ./instgram-app
           push: true
-          tags: nishantXdevops/inst-image:latest 
+          tags: nishantxdevops/inst-image:latest  # ✅ fixed username
