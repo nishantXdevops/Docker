@@ -29,4 +29,4 @@ jobs:
         with:
           context: ./basic-app
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/basic-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}basic-app:latest
