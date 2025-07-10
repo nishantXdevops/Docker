@@ -6,8 +6,8 @@ on:
       - main
     paths:
       - 'instgram-app/**'
-      - '.github/workflows/mini-insta.yaml'  
-  workflow_dispatch:  # allow manual trigger
+      - '.github/workflows/mini-insta.yaml'
+  workflow_dispatch:
 
 jobs:
   build-and-push:
@@ -31,4 +31,4 @@ jobs:
         with:
           context: ./instgram-app
           push: true
-          tags: nishantxdevops/inst-image:latest  # ✅ fixed username
+          tags: nishantxdevops/inst-image:latest
